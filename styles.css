@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 1000px;
 }
 .board{
     width: 40rem;
@@ -28,6 +29,7 @@ body{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border: 25px solid rgb(78, 24, 24);
     border-radius: 4px;
+    transform: rotateX(45deg);
 }
 .rows1{
     background-color: #80ff00;
